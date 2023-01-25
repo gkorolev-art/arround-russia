@@ -1,4 +1,4 @@
-.lang__lang-link {
+.lang__link {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .lang__lang-link {
+  .lang__link {
     font-size: 18px;
     line-height: 1.11;
   }
