@@ -2,13 +2,13 @@
   text-decoration: none;
   color: #fff;
   font-size: 24px;
-  font-weight: normal;
-  line-height: 1.2;
+  font-weight: 400;
+  line-height: 1.17;
 }
 
 @media screen and (max-width: 767px) {
   .lang__lang-link {
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.11;
   }
 }

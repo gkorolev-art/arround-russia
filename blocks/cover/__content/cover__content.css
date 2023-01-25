@@ -1,0 +1,16 @@
+.cover__content {
+  margin: auto;
+  max-width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__content {
+    max-width: 288px;
+  }
+}

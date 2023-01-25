@@ -1,27 +1,28 @@
-.header {
+.footer {
   max-width: 1184px;
+  margin: 0 auto 24px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  min-height: 52px;
-  margin: 28px auto 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .header {
+  .footer {
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .header {
+  .footer {
     max-width: calc(100% - 48px);
-    margin: 28px 24px 0;
+    margin: 0 24px 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header {
-    max-width: calc(100% - 32px);
-    margin: 16px 16px 0;
+  .footer {
+    min-height: 310px;
+    flex-direction: column;
+    margin: 0 16px 24px;
   }
 }
