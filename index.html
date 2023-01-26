@@ -18,10 +18,10 @@
           alt="Логотип Россия"
         />
       </a>
-      <div class="lang">
-        <a class="link lang__link lang__link_type_active" href="#">Ru</a>
-        <a class="link lang__link" href="#">En</a>
-      </div>
+      <ul class="lang">
+        <li><a class="link lang__link lang__link_active" href="#">Ru</a></li>
+        <li><a class="link lang__link" href="#">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead" aria-label="Путешествия по России">
@@ -29,12 +29,16 @@
         <p class="lead__subtitle">
           Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь
         </p>
-        <img
-          class="lead__image"
-          src="./images/lead__image.png"
-          alt="Вид из окна плацкартного вагона"
-        />
-        <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
+        <figure class="lead__figure">
+          <img
+            class="lead__image"
+            src="./images/lead__image.png"
+            alt="Вид из окна плацкартного вагона"
+          />
+          <figcaption class="lead__caption">
+            ваша полка&nbsp;&mdash; верхняя
+          </figcaption>
+        </figure>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
@@ -74,70 +78,96 @@
         </ul>
       </section>
       <section class="photo-grid" aria-label="Россия в фотографиях">
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item1_coach-window.png"
-          alt="Окно вагона"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item2_clouds.png"
-          alt="Облака в горах"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item3_field.png"
-          alt="Поле"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item4_forest.png"
-          alt="Лес в тумане"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item5_car-on-ice.png"
-          alt="Колесо машины на прозрачном льду"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item6_sea.png"
-          alt="Берег моря"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item7_mountains.png"
-          alt="Горы"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item8_road-sign.png"
-          alt="Дорожный знак"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item9_grey-mountains.png"
-          alt="Бронзово-коричневые холмы"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item10_one-mountain.png"
-          alt="Одинокая гора"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item11_rock.png"
-          alt="Утёс"
-        />
-        <img
-          class="photo-grid__item"
-          src="./images/photo-grid/__item12.png"
-          alt="Высокогорье"
-        />
+        <ul class="photo-grid__list">
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item1_coach-window.png"
+              alt="Окно вагона"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item2_clouds.png"
+              alt="Облака в горах"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item3_field.png"
+              alt="Поле"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item4_forest.png"
+              alt="Лес в тумане"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item5_car-on-ice.png"
+              alt="Колесо машины на прозрачном льду"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item6_sea.png"
+              alt="Берег моря"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item7_mountains.png"
+              alt="Горы"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item8_road-sign.png"
+              alt="Дорожный знак"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item9_grey-mountains.png"
+              alt="Бронзово-коричневые холмы"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item10_one-mountain.png"
+              alt="Одинокая гора"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item11_rock.png"
+              alt="Утёс"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="./images/photo-grid/__item12.png"
+              alt="Высокогорье"
+            />
+          </li>
+        </ul>
       </section>
       <section class="places" aria-label="Лучшие туристические места">
         <article class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__website-heading">url</p>
             <a
@@ -172,7 +202,7 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__website-heading">url</p>
             <a
@@ -207,7 +237,7 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__website-heading">url</p>
             <a
@@ -241,7 +271,7 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__website-heading">url</p>
             <a
@@ -274,7 +304,7 @@
           </div>
         </article>
         <article class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__website-heading">url</p>
             <a
@@ -307,21 +337,19 @@
         </article>
       </section>
       <section class="cover">
-        <div class="cover__image">
-          <a
-            class="cover__content"
-            href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            target="_blank"
-          >
-            <h2 class="cover__title">
-              До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
-            </h2>
-            <p class="cover__subtitle">
-              По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
-              путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках
-            </p>
-          </a>
-        </div>
+        <a
+          class="cover__content"
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+        >
+          <h2 class="cover__title">
+            До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+          </h2>
+          <p class="cover__subtitle">
+            По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
+            путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках
+          </p>
+        </a>
       </section>
     </main>
     <footer class="footer">
