@@ -2,8 +2,7 @@
   margin: 92px auto;
   max-width: 1184px;
   position: relative;
-  padding-top: calc((740px - 250.48px) / 2);
-  padding-bottom: calc((740px - 250.48px) / 2);
+  padding-bottom: 740px;
   background-size: cover;
   background-position: center;
   background-image: url(../../images/cover.png);
@@ -28,8 +27,7 @@
 @media screen and (max-width: 1279px) {
   .cover {
     max-width: 100%;
-    padding-top: calc((62.5% - 250.48px) / 2);
-    padding-bottom: calc((62.5% - 250.48px) / 2);
+    padding-bottom: 62.5%;
   }
 }
 
@@ -42,7 +40,5 @@
 @media screen and (max-width: 767px) {
   .cover {
     margin: 65px auto;
-    padding-top: calc((62.5% - 133.61px) / 2);
-    padding-bottom: calc((62.5% - 133.61px) / 2);
   }
 }
