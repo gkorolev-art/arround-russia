@@ -2,9 +2,9 @@
   margin: auto;
   max-width: 560px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   row-gap: 32px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
